@@ -2,10 +2,8 @@
 
 A GRC configuration audit of a Jamf Pro–managed iPad fleet, mapped to **CIS Controls v8** and **NIST SP 800-53 Rev. 5**.
 
-**[Read the report (PDF)](Mobile_Device_Security_Audit_Report.pdf)** | **[Open the workbook (XLSX)](Mobile_Device_Security_Audit_v2.xlsx)**
-
-![Report cover](assets/cover.png)
-
+Report PDF version: https://drive.google.com/file/d/1FhKlaHEn6wUdOETlp9axb7NummwU4bIF/view?usp=drive_link
+Report Google Sheet version: https://docs.google.com/spreadsheets/d/15itWOr6AEsfhDCET15JnOuAsWXjp4bDh/edit?usp=sharing&ouid=114244723909827319807&rtpof=true&sd=true
 ---
 
 ## Summary
