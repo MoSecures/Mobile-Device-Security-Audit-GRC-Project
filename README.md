@@ -1,14 +1,11 @@
 # Mobile Device Security Audit
 
 A GRC configuration audit of a Jamf Pro–managed iPad fleet, mapped to **CIS Controls v8** and **NIST SP 800-53 Rev. 5**.
-
-Report PDF version: https://drive.google.com/file/d/1FhKlaHEn6wUdOETlp9axb7NummwU4bIF/view?usp=drive_link
-Report Google Sheet version: https://docs.google.com/spreadsheets/d/15itWOr6AEsfhDCET15JnOuAsWXjp4bDh/edit?usp=sharing&ouid=114244723909827319807&rtpof=true&sd=true
----
+Full project: https://docs.google.com/spreadsheets/d/17na1uH5IwxJz3vnNuST1ibnXnxB7mmF9/edit?usp=sharing&ouid=114244723909827319807&rtpof=true&sd=true
 
 ## Summary
 
-Shared student iPads had almost no security baseline. Students could sign in with personal Apple IDs and install any app, which gave student data a direct path out of the managed environment.
+A fleet of 500+ shared iPads had almost no security baseline. Users could sign in with personal Apple IDs and install any app, which gave sensitive data a direct path out of the managed environment.
 
 I audited 132 MDM settings, mapped each one to CIS and NIST controls, rated the risks, and remediated them with a new Jamf Pro configuration profile.
 
@@ -32,8 +29,6 @@ Apart from Apple's default settings, only two controls had been deliberately con
 - **Personal Apple IDs were allowed.** iMessage, Photos, iCloud and Keychain could sync to accounts the organization didn't control.
 - **The App Store was unrestricted.** The blocklist only stopped known-bad apps.
 - **There was no documented baseline** to audit against.
-
-Because these devices hold student data, these gaps also affect FERPA and COPPA obligations.
 
 ---
 
@@ -96,7 +91,6 @@ All 13 findings are in the report and the workbook.
 - Risk scoring, risk treatment and risk acceptance
 - Audit findings (condition, criteria, cause, effect)
 - POA&M and executive reporting
-- Student-data privacy context (FERPA, COPPA)
 - Apple MDM and Jamf Pro configuration profiles
 
 ---
